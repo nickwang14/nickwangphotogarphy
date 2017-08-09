@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* Background */
+body {
+	background: none;
+}
+.full {
+  background: url('/assets/shoot.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 300ms ease-in;
+  min-width: 250px;
+}	
+
+/* Logo */
+#logo{
+	text-align: center;
+	padding-bottom: 35px;
+	margin-top: 25%;
+}
+#logo img{
+	max-width: 200px;
+}
+@media (max-width: 768px){
+	#logo{
+		margin-top: 35%;
+	}
+}
+@media (max-width: 400px){
+	#logo{
+		margin-top: 40%;
+	}
+}
+/* Link Text */
+.btn{
+	font-family: 'Saira', sans-serif;
+	color: white;
+	border: 2px white solid;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+}
+.btn:hover {
+	background: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration:none;
+	color: grey;
+	animation: forwards;
+}
+/* Social Media */
+.social-media{
+	color:white;
+	text-align: center;
+	margin-top: 5%;
+
+	padding: 20px 0px 20px 0px;
+}
