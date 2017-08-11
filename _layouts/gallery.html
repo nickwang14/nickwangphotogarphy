@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
   <link href="css/carousel.css" rel="stylesheet">
-  <body onload="showPage()">
+  <body id="page-content" class="fade-in" onload="showPage()">
   <div id="loader"></div>
-    <div id="page-content" class="fade-in">
+    <div>
       {% include nav.html %}
           {{ content }}
     </div>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/assets/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="/css/home.css" rel="stylesheet">
     <link href="/css/loadingscreen.css" rel="stylesheet">
     <link href="/css/base.css" rel="stylesheet">
     
@@ -29,9 +28,9 @@
 </head>
 
   <link href="css/carousel.css" rel="stylesheet">
-  <body onload="showPage()">
+  <body id="page-content" class="fade-in" onload="showPage()">
   <div id="loader"></div>
-    <div id="page-content" class="fade-in">
+    <div>
       <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -43,7 +42,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <a class="navbar-brand" href="/index.html"><span class="fa fa-home" aria-hidden="true"></span></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -57,13 +56,15 @@
                 <li>
                     <a href="/explore.html">Explore</a>
                 </li>
+            </ul>
+             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a href="/about.html">
                         <span class="fa fa-user" aria-hidden="true" style="display:inline;"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:nickwang14@gmail.com">
+                    <a href="/contact.html">
                         <span class="fa fa-envelope-o" style="display:inline;" aria-hidden="true"></span>
                     </a>
                 </li>
@@ -82,6 +83,13 @@
                     </a>
                 </li>
                 
+                
+                
+                <li>
+                    <a href="https://linkedin.com/" target="_blank">
+                      <span class="fa fa-linkedin" style="display:inline;" aria-hidden="true"></span>
+                    </a>
+                </li>
                 
             </ul>
         </div>
@@ -124,123 +132,6 @@
 			
 		
 			
-				
-				<div class="item active" style="background-image:url(/assets/weboptimized/explore-australia-1.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-australia-2.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-australia-3.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-newzealand-1.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-newzealand-2.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-ottawa-1.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-ottawa-2.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-ottawa-3.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-ottawa-4.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-tobermory-1.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-tobermory-2.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-toronto-1.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-toronto-2.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-vancouver-1.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-vancouver-2.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-vancouver-3.jpg)"></div>
-				
-				
-			
-		
-			
-				
-				<div class="item" style="background-image:url(/assets/weboptimized/explore-vancouver-4.jpg)"></div>
-				
-				
-			
 		
 			
 		
@@ -251,13 +142,87 @@
 			
 		
 			
-		
+				
+				<div class="item active" style="background-image:url(/assets/weboptimized/explore-01.jpg)"></div>
+				
+				
 			
 		
 			
-		
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-03.JPG)"></div>
+				
+				
 			
 		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-04.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-05.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-06.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-07.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-08.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-09.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-10.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-12.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-13.jpg)"></div>
+				
+				
+			
+		
+			
+				
+				<div class="item" style="background-image:url(/assets/weboptimized/explore-14.jpg)"></div>
+				
+				
 			
 		
 			
@@ -353,289 +318,241 @@
 	    	<span class="sr-only">Next</span>
 	    </a>
 	    <!-- Indicators -->
-	  	<ol class="carousel-indicators">
-	  	
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="0" class="active">
-			    	<img src="/assets/weboptimized/explore-australia-1.jpg" />
-			    </li>
-			  	
+	    <a class="btn btn-primary list-images" role="button" data-toggle="collapse" href="#thumbnail-collapse" aria-expanded="false" aria-controls="thumbnail-collapse">
+		  Click to Toggle
+		</a>
+	    <div class="collapse" id="thumbnail-collapse">
+		  	<ol class="carousel-indicators">
+		  	
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="0" class="active">
+				    	<img src="/assets/weboptimized/explore-01.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="1">
-			    	<img src="/assets/weboptimized/explore-australia-2.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="2">
-			    	<img src="/assets/weboptimized/explore-australia-3.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="1">
+				    	<img src="/assets/weboptimized/explore-03.JPG" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="3">
-			    	<img src="/assets/weboptimized/explore-newzealand-1.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="4">
-			    	<img src="/assets/weboptimized/explore-newzealand-2.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="2">
+				    	<img src="/assets/weboptimized/explore-04.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="5">
-			    	<img src="/assets/weboptimized/explore-ottawa-1.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="6">
-			    	<img src="/assets/weboptimized/explore-ottawa-2.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="3">
+				    	<img src="/assets/weboptimized/explore-05.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="7">
-			    	<img src="/assets/weboptimized/explore-ottawa-3.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="8">
-			    	<img src="/assets/weboptimized/explore-ottawa-4.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="4">
+				    	<img src="/assets/weboptimized/explore-06.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="9">
-			    	<img src="/assets/weboptimized/explore-tobermory-1.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="10">
-			    	<img src="/assets/weboptimized/explore-tobermory-2.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="5">
+				    	<img src="/assets/weboptimized/explore-07.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="11">
-			    	<img src="/assets/weboptimized/explore-toronto-1.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="12">
-			    	<img src="/assets/weboptimized/explore-toronto-2.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="6">
+				    	<img src="/assets/weboptimized/explore-08.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="13">
-			    	<img src="/assets/weboptimized/explore-vancouver-1.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="14">
-			    	<img src="/assets/weboptimized/explore-vancouver-2.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="7">
+				    	<img src="/assets/weboptimized/explore-09.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="15">
-			    	<img src="/assets/weboptimized/explore-vancouver-3.jpg" />
-			    </li>
-			  	
-			  	
-		  	
-	  	
-			
-			  	
-			    <li data-target="#myCarousel" data-slide-to="16">
-			    	<img src="/assets/weboptimized/explore-vancouver-4.jpg" />
-			    </li>
-			  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="8">
+				    	<img src="/assets/weboptimized/explore-10.jpg" />
+				    </li>
+				  	
+				  	
 			  	
 		  	
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-			
-	  	
-	  	</ol>
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="9">
+				    	<img src="/assets/weboptimized/explore-12.jpg" />
+				    </li>
+				  	
+				  	
+			  	
+		  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="10">
+				    	<img src="/assets/weboptimized/explore-13.jpg" />
+				    </li>
+				  	
+				  	
+			  	
+		  	
+				
+				  	
+				    <li data-target="#myCarousel" data-slide-to="11">
+				    	<img src="/assets/weboptimized/explore-14.jpg" />
+				    </li>
+				  	
+				  	
+			  	
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+				
+		  	
+		  	</ol>
+	  	</div>
 	</div>
 </div>
 

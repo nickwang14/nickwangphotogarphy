@@ -8,7 +8,7 @@ body {
 	background: none;
 }
 .full {
-  background: url('/assets/shoot.jpg') no-repeat center center fixed; 
+  background: url('/assets/weboptimized/shoot-01.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -6,11 +6,6 @@ html, body {
   width:100%;
   position:relative;
 }
-/* Accordian Styles */
-.panel-group{
-  padding: 0px 20px;
-}
-
 /* Carousel Styles */
 #background-carousel{
   top:50px;
@@ -39,10 +34,46 @@ html, body {
 .carousel-control.right {
   background-image: none;
 }
+/* Button Toggle */
+.list-images{
+  bottom: 150px;
+  left: 50%;
+  width: 120px;
+  margin: -60px;
+  position:absolute;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  background-color: #414042;
+  border-color: #333;
+}
 
+.list-images[aria-expanded="true"]{
+  bottom: 250px;
+  background-color: #333;
+  border-color: black;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus {
+  background-color: #414042;
+  border-color: #333;
+  }
+.btn:active,
+.btn.active,
+.btn:active.focus,
+.btn.active.focus {
+  background-color: #414042;
+  border-color: #333;
+  }
+.list-images:hover{
+  background-color: #959698;
+  border-color: #333;
+  }
 /* indicators */
 #myCarousel .carousel-indicators {
-  bottom: 50px;
+  bottom: 55px;
   left: 0;
   right: 0;
   margin-left: 0%;

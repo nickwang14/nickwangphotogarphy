@@ -31,23 +31,28 @@ page-title: shoot
 	    	<span class="sr-only">Next</span>
 	    </a>
 	    <!-- Indicators -->
-	  	<ol class="carousel-indicators">
-	  	{% assign counter = 0 %}
-	  	{% for image in site.static_files%}
-			{% if image.path contains path %}
-			  	{% if counter < 1 %}
-			    <li data-target="#myCarousel" data-slide-to="{{counter}}" class="active">
-			    	<img src="{{image.path}}">
-			    </li>
-			  	{% assign counter = counter | plus:1 %}
-			  	{% else %}
-			    <li data-target="#myCarousel" data-slide-to="{{counter}}">
-			    	<img src="{{image.path}}">
-			    </li>
-			  	{% assign counter = counter | plus:1 %}
+	    <a class="btn btn-primary list-images" role="button" data-toggle="collapse" href="#thumbnail-collapse" aria-expanded="false" aria-controls="thumbnail-collapse">
+		  Click to Toggle
+		</a>
+	    <div class="collapse" id="thumbnail-collapse">
+		  	<ol class="carousel-indicators">
+		  	{% assign counter = 0 %}
+		  	{% for image in site.static_files%}
+				{% if image.path contains path %}
+				  	{% if counter < 1 %}
+				    <li data-target="#myCarousel" data-slide-to="{{counter}}" class="active">
+				    	<img src="{{image.path}}">
+				    </li>
+				  	{% assign counter = counter | plus:1 %}
+				  	{% else %}
+				    <li data-target="#myCarousel" data-slide-to="{{counter}}">
+				    	<img src="{{image.path}}">
+				    </li>
+				  	{% assign counter = counter | plus:1 %}
+				  	{% endif %}
 			  	{% endif %}
-		  	{% endif %}
-	  	{% endfor %}
-	  	</ol>
+		  	{% endfor %}
+		  	</ol>
+	  	</div>
 	</div>
 </div>
