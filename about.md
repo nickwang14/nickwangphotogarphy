@@ -16,15 +16,23 @@ layout: about
 	        <h1>Nick Wang</h1>
 	        <h3>About</h3>
 	        <hr class="intro-divider">
-	        <h4> Shoot | Fight | Explore </h4>
+	        <h4> 
+	        <a href="/shoot.html">Shoot</a> | 
+	        <a href="/fight.html">Fight</a> | 
+	        <a href="/explore.html">Explore</a>
+	        </h4>
 	    </div>
 	    <!-- End item 1 -->
-	    <div class="item container-fluid">
+	    <div class="item container-fluid intro">
 		    <div class="row">
 				<div class="col-md-6 col-sm-12 col-xs-12">
 				<div class="well photography" data-mh="row-1">
 			        <h2 class="section-heading">Shoot</h2>
-			        <p class="lead">Shooting subjects helped me improve my skill as a photographer. Going out to specifically shoot forces me to push my limits with framing and lighting to make sure that I get the right shot. </p>
+			        <p class="lead">
+			        Photography, as with any art, requires dedication and practice to stay sharp.
+			        If you scroll through my <a href="instagram.com/{{instagram_username}}" target="_blank">
+			        Instagram</a>, you can see that I try to shoot a wide variety of subjects. However, I find that my strengths lie with animals and architecture, as featured in my <a href="/shoot.html">gallery</a>.
+			        </p>
 			    </div>
 			    </div>
 			    <div class="col-md-6 col-sm-12 col-xs-12" id="photography">
@@ -35,7 +43,10 @@ layout: about
 				<div class="col-md-push-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="well photography" data-mh="row-2">
 			        <h2 class="section-heading">Fight</h2>
-			        <p class="lead"> I started Muay Thai August of 2015, in my 2 years of competition, I've taken 2 amateur belts at the Thai Boxing Association in the US. As a fighter, I understand the pace and the rhythm of fights and I can see the smaller details of where fights are going to go. </p>
+			        <p class="lead"> 
+			        I started Muay Thai in 2015. I have since won 2 amateur belts with the Thai Boxing Association (USA). 
+			        My experience as a competitor allows me to follow the rhythm of a fight in order to capture pivotal moments.
+			        </p>
 				</div>
 				</div>
 				<div class="col-md-pull-6 col-md-6 col-sm-12 col-xs-12" id="photography">
@@ -46,7 +57,9 @@ layout: about
 				<div class="col-md-6 col-sm-12 col-xs-12">
 				<div class="well photography" data-mh="row-3">
 			        <h2 class="section-heading">Explore</h2>
-			        <p class="lead">Travel and Exploration was what inspired me to begin shooting. My first time leaving home showed me what the world has to offer, and I realized that I wanted to capture moments as best I could in order to have better memories and to share my experiences better. </p>
+			        <p class="lead">
+			        Travel and Exploration was what inspired me to start shooting. 
+			        I wanted to accurately share what the world has to offer, and realized that I needed to improve my photography in order to do justice to those experiences. </p>
 			    </div>
 			    </div>
 			    <div class="col-md-6 col-sm-12 col-xs-12" id="photography">
