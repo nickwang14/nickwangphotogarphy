@@ -88,10 +88,10 @@ layout: about
 	                <a href="https://instagram.com/{{ site.instagram_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
 	            </li>
 	            <li>
-	                <a href="https://github.com/{{ site.github_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+	                <a href="https://linkedin.com/{{ site.linkedin_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
 	            </li>
 	            <li>
-	                <a href="https://linkedin.com/{{ site.linkedin_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+	                <a href="https://github.com/{{ site.github_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
 	            </li>
 	        </ul>
 	    </div>

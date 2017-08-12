@@ -30,13 +30,6 @@
                         <span class="fa fa-user" aria-hidden="true" style="display:inline;"></span>
                     </a>
                 </li>
-                {% if site.github_username %}
-                <li>
-                    <a href="https://github.com/{{ site.github_username }}" target="_blank">
-                        <span class="fa fa-github" style="display:inline;" aria-hidden="true"></span>
-                    </a>
-                </li>
-                {% endif %}
                 {% if site.twitter_username %}
                 <li>
                     <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -62,6 +55,13 @@
                 <li>
                     <a href="https://linkedin.com/{{ site.linkedin }}" target="_blank">
                       <span class="fa fa-linkedin" style="display:inline;" aria-hidden="true"></span>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.github_username %}
+                <li>
+                    <a href="https://github.com/{{ site.github_username }}" target="_blank">
+                        <span class="fa fa-github" style="display:inline;" aria-hidden="true"></span>
                     </a>
                 </li>
                 {% endif %}
