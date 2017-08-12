@@ -71,8 +71,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .copyright{
     background-color: #333;
-    border: 1px;
-    border-color: white;
     padding: 4px;
 }
 .copyright p{
