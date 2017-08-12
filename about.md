@@ -80,9 +80,6 @@ layout: about
 	            <li>
 	                <a href="https://linkedin.com/{{ site.linkedin_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
 	            </li>
-	            <li>
-	                <a href="/contact.html" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">Message</span></a>
-	            </li>
 	        </ul>
 	    </div>
 	    <!-- End item 2 -->
