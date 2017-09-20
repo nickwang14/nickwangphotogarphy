@@ -8,14 +8,14 @@ body {
 	background: none;
 }
 .full {
-  background: url('/assets/weboptimized/shoot-01.jpg') no-repeat center center fixed; 
+  background: url('/assets/weboptimized/shoot-01.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   transition: 300ms ease-in;
   min-width: 250px;
-}	
+}
 
 /* Logo */
 #logo{
@@ -38,7 +38,7 @@ body {
 }
 /* Link Text */
 .btn{
-	font-family: 'Saira', sans-serif;
+	font-family: 'Saira:400', sans-serif;
 	color: white;
 	border: 2px white solid;
 	font-size: 1.5em;

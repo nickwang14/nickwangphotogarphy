@@ -1,14 +1,15 @@
 ---
 layout: about
+
 ---
 <!-- Header -->
 <div class="about">
     <div id="aboutCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
-	    <div class="item intro-message active" 
+	    <div class="item intro-message active"
 	    	style="
 	    	background: url(/assets/about/aboutbg.jpg)
-	    	no-repeat; 
+	    	no-repeat;
 	    	background-position: center center;
 	    	background-size: cover;
 	    	width:100%;
@@ -16,9 +17,9 @@ layout: about
 	        <h1>Nick Wang</h1>
 	        <h3>About</h3>
 	        <hr class="intro-divider">
-	        <h4> 
-	        <a href="/shoot.html">Shoot</a> | 
-	        <a href="/fight.html">Fight</a> | 
+	        <h4>
+	        <a href="/shoot.html">Shoot</a> |
+	        <a href="/fight.html">Fight</a> |
 	        <a href="/explore.html">Explore</a>
 	        </h4>
 	    </div>
@@ -43,8 +44,8 @@ layout: about
 				<div class="col-md-push-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="well photography" data-mh="row-2">
 			        <h2 class="section-heading">Fight</h2>
-			        <p class="lead"> 
-			        I started Muay Thai in 2015. I have since won 2 amateur belts with the Thai Boxing Association (USA). 
+			        <p class="lead">
+			        I started Muay Thai in 2015. I have since won 2 amateur belts with the Thai Boxing Association (USA).
 			        My experience as a competitor allows me to follow the rhythm of a fight in order to capture pivotal moments.
 			        </p>
 				</div>
@@ -58,7 +59,7 @@ layout: about
 				<div class="well photography" data-mh="row-3">
 			        <h2 class="section-heading">Explore</h2>
 			        <p class="lead">
-			        Travel and Exploration was what inspired me to start shooting. 
+			        Travel and Exploration was what inspired me to start shooting.
 			        I wanted to accurately share what the world has to offer, and realized that I needed to improve my photography in order to do justice to those experiences. </p>
 			    </div>
 			    </div>
@@ -72,7 +73,7 @@ layout: about
 				</div>
 			</div>
 		</div>
-	    <div class="item contact-message" 
+	    <div class="item contact"
 	    	style="
 	    	background: url(/assets/about/contact.jpg)
 	    	no-repeat;
@@ -81,28 +82,35 @@ layout: about
 	    	width:100%;
 	    	height:100%;">
 	        <h2>Get in Touch!</h2>
-	        <h3> Collabs | Websites | Photoshoots | Fights </h3>
+	        <h3>
+	        <a href='#photoshoots'>Photoshoots</a>
+	        | <a href='#websites'>Websites</a>
+	        | <a href='#collabs'>Collabs</a>
+			</h3>
 	        <hr class="intro-divider">
 	        <ul class="list-inline contact-social-buttons">
 	            <li>
 	                <a href="https://instagram.com/{{ site.instagram_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
 	            </li>
 	            <li>
-	                <a href="https://linkedin.com/{{ site.linkedin_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+	                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
 	            </li>
 	            <li>
 	                <a href="https://github.com/{{ site.github_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
 	            </li>
 	        </ul>
+	        <a class="works" name='photoshoots' href='photoshoot-works'></a>
+	        <a class="works" name='websites' href='websites-works'></a>
+	        <a class="works" name='collabs' href='collabs-works'></a>
 	    </div>
 	    <!-- End item 2 -->
 	    <!-- Carousel Indicators -->
 	  	<ol class="carousel-indicators">
 		    <li data-target="#aboutCarousel" data-slide-to="0" class="active">
 		    </li>
-		    <li data-target="#aboutCarousel" data-slide-to="1">	
+		    <li data-target="#aboutCarousel" data-slide-to="1">
 		    </li>
-		    <li data-target="#aboutCarousel" data-slide-to="2">	
+		    <li data-target="#aboutCarousel" data-slide-to="2">
 		    </li>
 	  	</ol>
 	    </div>

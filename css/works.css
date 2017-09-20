@@ -1,0 +1,44 @@
+body{
+	padding-top: 70px;
+}
+.banner{
+	height: 20%;
+}
+h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+a:hover, a:active, a:focus{
+    color: white;
+}
+@media (max-width: 768px){
+	h1 {
+		font-size: 6em;
+	}
+}
+@media (max-width: 400px){
+	h1 {
+		font-size: 3em;
+	}
+}
+
+
+/*
+.hover {
+  background: white;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+}
+
+div:hover > .banner {
+    opacity: 0.4;
+}
+*/
