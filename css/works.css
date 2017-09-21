@@ -2,8 +2,9 @@ body{
 	padding-top: 70px;
 }
 .banner{
-	height: 20%;
-  margin-bottom: 20px;
+	max-height: 10%;
+  max-width: 80%;
+  margin: auto auto 20px auto;
 }
 h1 {
     margin: 0;
@@ -20,11 +21,21 @@ a:hover, a:active, a:focus{
 	h1 {
 		font-size: 6em;
 	}
+  .banner{
+  height: 20%;
+  margin-bottom: 20px;
+  max-width: 100%;
+  }
 }
 @media (max-width: 400px){
 	h1 {
 		font-size: 3em;
 	}
+  .banner{
+  height: 20%;
+  margin-bottom: 20px;
+  max-width: 100%;
+  }
 }
 
 
