@@ -83,9 +83,9 @@ layout: about
 	    	height:100%;">
 	        <h2>Get in Touch!</h2>
 	        <h3>
-	        <a href='#photoshoots'>Photoshoots</a>
-	        | <a href='#websites'>Websites</a>
-	        | <a href='#collabs'>Collabs</a>
+	        Photoshoots
+	        | Websites
+	        | Collabs
 			</h3>
 	        <hr class="intro-divider">
 	        <ul class="list-inline contact-social-buttons">
@@ -99,9 +99,6 @@ layout: about
 	                <a href="https://github.com/{{ site.github_username }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
 	            </li>
 	        </ul>
-	        <a class="works" name='photoshoots' href='photoshoot-works'></a>
-	        <a class="works" name='websites' href='websites-works'></a>
-	        <a class="works" name='collabs' href='collabs-works'></a>
 	    </div>
 	    <!-- End item 2 -->
 	    <!-- Carousel Indicators -->
