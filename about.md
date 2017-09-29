@@ -32,7 +32,7 @@ layout: about
 			        <p class="lead">
 			        Photography, as with any art, requires dedication and practice to stay sharp.
 			        If you scroll through my <a href="instagram.com/{{instagram_username}}" target="_blank">
-			        Instagram</a>, you can see that I try to shoot a wide variety of subjects. However, I find that my strengths lie with animals and architecture, as featured in my <a href="/shoot.html">gallery</a>.
+			        Instagram</a>, you can see that I try to shoot a wide variety of subjects. However, I find that my strengths lie with animals and architecture, as featured in my <a href="/shoot">gallery</a>.
 			        </p>
 			    </div>
 			    </div>
@@ -46,7 +46,7 @@ layout: about
 			        <h2 class="section-heading">Fight</h2>
 			        <p class="lead">
 			        I started Muay Thai in 2015. I have since won 2 amateur belts with the Thai Boxing Association (USA).
-			        My experience as a competitor allows me to follow the rhythm of a fight in order to capture pivotal moments.
+			        My experience as a competitor allows me to follow the rhythm of a fight in order to capture pivotal moments of <a href="/fight">action</a>. I've also been a key part of photographing fight events, check out those <a href="/works"> works here</a>.
 			        </p>
 				</div>
 				</div>
@@ -59,7 +59,7 @@ layout: about
 				<div class="well photography" data-mh="row-3">
 			        <h2 class="section-heading">Explore</h2>
 			        <p class="lead">
-			        Travel and Exploration was what inspired me to start shooting.
+			        <a href="/explore">Travel and Exploration </a>was what inspired me to start shooting.
 			        I wanted to accurately share what the world has to offer, and realized that I needed to improve my photography in order to do justice to those experiences. </p>
 			    </div>
 			    </div>
