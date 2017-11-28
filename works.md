@@ -3,18 +3,14 @@ layout: works
 page-title: works
 ---
 <div class='work'>
-{% for post in site.posts %}
-	<div class='banner'
-		style="
-		background: url({{ post.banner }})
-		no-repeat;
-		background-position: center center;
-		background-size: cover;
-		width:100%;
-		height:100%;">
-		<a href="{{ post.url }}"><h1>{{post.title}}</h1></a>
-	</div>
-{% endfor %}
+<div class='cover'>
+	{% for post in site.posts %}
+	<a class='mobile-noclick' href="{{ post.url }}">
+		<h4>{{post.title}}</h4>
+		<img src="{{post.cover}}" alt="{{image.name}}" id="index{{forloop.index}}"/>
+	</a>
+	{% endfor %}
+</div>
 	<p style="text-align: center;">
 		If you like my work, please show your support by making a donation of your choice.
 		<br/>
