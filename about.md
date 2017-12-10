@@ -1,6 +1,5 @@
 ---
 layout: about
-
 ---
 <!-- Header -->
 <div class="about">
