@@ -1,7 +1,6 @@
 /* Images */
 body {
   margin: 0;
-  padding-top: 60px;
 }
 
 h1{
@@ -16,7 +15,6 @@ p, form{
 .paypal img{
   padding-bottom: 50px;
 }
-
 /* Photos */
 .photos{
   max-width: 100%;

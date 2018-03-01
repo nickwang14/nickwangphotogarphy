@@ -3,10 +3,14 @@
   {% include head.html %}
   <link href="css/carousel.css" rel="stylesheet">
   <body id="page-content" class="fade-in" onload="showPage()">
-  <div id="loader"></div>
+    <div id="loader"></div>
     <div>
       {% include nav.html %}
-          {{ content }}
+        {{ content }}
+      <!-- Indicators -->
+      <a class="btn btn-primary list-images" role="button" data-toggle="collapse" href="#thumbnail-collapse" aria-expanded="false" aria-controls="thumbnail-collapse">
+          Click to Toggle
+      	</a>
     </div>
     <!-- Custom JavaScript -->
     <script src="{{site.baseurl}}/assets/js/loadingscreen.js" type="text/javascript"></script>

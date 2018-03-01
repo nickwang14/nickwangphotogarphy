@@ -2,7 +2,7 @@
 <html lang="en">
   {% include head.html %}
   <link href="css/about.css" rel="stylesheet">
-  <body onload="showPage()" id="page-content" class="fade-in">
+  <body onload="showPage(); heightFix();" id="page-content" class="fade-in">
   <div id="loader"></div>
     {% include nav.html %}
       {{ content }}

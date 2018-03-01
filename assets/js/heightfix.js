@@ -1,4 +1,3 @@
-$(function() {
-	if ($(document).width()<992){
-    $('.photography').matchHeight();}
-});
+function heightFix() {
+    $('.photography').matchHeight();
+}

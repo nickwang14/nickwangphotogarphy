@@ -2,12 +2,14 @@
 layout: home
 ---
 <!-- Page Content -->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
             <div id="logo">
 		        <img src="/assets/nick-logo-white.png">
 		    </div>
+			<br>
+			<br>
 		    <div class="btn-group btn-group-justified" role="group" aria-label="change bg images">
 			  <a class="btn" id="shoot" href="/shoot.html"> Shoot </a>
 			  <a class="btn" id="fight" href="/fight.html"> Fight </a>

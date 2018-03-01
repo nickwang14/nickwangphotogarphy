@@ -1,10 +1,10 @@
 ---
-layout: gallery
+layout: carousel
 page-title: shoot
 ---
 <!-- Carousel with Thumbnails -->
 <div id="background-carousel">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="null">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover">
     {% assign path = 'assets/weboptimized/shoot'%}
       	<!-- Wrapper for slides -->
       	<div class="carousel-inner">
@@ -12,28 +12,24 @@ page-title: shoot
 		{% for image in site.static_files%}
 			{% if image.path contains path %}
 				{% if counter < 1 %}
-				<div class="item active" style="background-image:url({{image.path}})"></div>
+				<div class="carousel-item active" style="background-image:url({{image.path}})"></div>
 				{% assign counter = counter | plus:1 %}
 				{% else %}
-				<div class="item" style="background-image:url({{image.path}})"></div>
+				<div class="carousel-item" style="background-image:url({{image.path}})"></div>
 				{% assign counter = counter | plus:1 %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
       	</div>
 		<!-- Controls -->
-	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-	    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    	<span class="sr-only">Previous</span>
-	    </a>
-	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-	    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+	    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+	    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
 	    	<span class="sr-only">Next</span>
 	    </a>
-	    <!-- Indicators -->
-	    <a class="btn btn-primary list-images" role="button" data-toggle="collapse" href="#thumbnail-collapse" aria-expanded="false" aria-controls="thumbnail-collapse">
-		  Click to Toggle
-		</a>
 	    <div class="collapse" id="thumbnail-collapse">
 		  	<ol class="carousel-indicators">
 		  	{% assign counter = 0 %}

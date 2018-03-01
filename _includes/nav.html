@@ -1,76 +1,48 @@
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{site.baseurl}}/index.html"><span class="fa fa-home" aria-hidden="true"></span></a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="z-index: 1000; text-align: center;">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <a class="navbar-brand" href="{{site.baseurl}}/index.html"><span class="fa fa-home fa-lg" aria-hidden="true"></span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbarmain">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="{{site.baseurl}}/shoot.html">Shoot</a>
+            <a class="nav-item nav-link" href="{{site.baseurl}}/fight.html">Fight</a>
+            <a class="nav-item nav-link" href="{{site.baseurl}}/explore.html">Explore</a>
+            <a class="nav-item nav-link" href="{{site.baseurl}}/blogposts.html">Blog</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="{{site.baseurl}}/shoot.html">Shoot</a>
-                </li>
-                <li>
-                    <a href="{{site.baseurl}}/fight.html">Fight</a>
-                </li>
-                <li>
-                    <a href="{{site.baseurl}}/explore.html">Explore</a>
-                </li>
-                <li>
-                    <a href="{{site.baseurl}}/works.html">Works</a>
-                </li>
-            </ul>
-             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="{{site.baseurl}}/about.html">
-                        <span class="fa fa-user" aria-hidden="true" style="display:inline;"></span>
-                    </a>
-                </li>
-                {% if site.twitter_username %}
-                <li>
-                    <a href="https://twitter.com/{{ site.twitter_username }}">
-                        <span class="fa fa-twitter" style="display:inline;" aria-hidden="true" target="_blank"></span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.instagram_username %}
-                <li>
-                    <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-                        <span class="fa fa-instagram" style="display:inline;" aria-hidden="true"></span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.blogger_username %}
-                <li>
-                    <a href="https://{{ site.blogger_username }}.blogspot.ca" target="_blank">
-                      <span class="fa fa-google-plus-official" style="display:inline;" aria-hidden="true"></span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.linkedin_username %}
-                <li>
-                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-                      <span class="fa fa-linkedin" style="display:inline;" aria-hidden="true"></span>
-                    </a>
-                </li>
-                {% endif %}
-                {% if site.github_username %}
-                <li>
-                    <a href="https://github.com/{{ site.github_username }}" target="_blank">
-                        <span class="fa fa-github" style="display:inline;" aria-hidden="true"></span>
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
+        <div class="navbar-nav">
+            <a href="{{site.baseurl}}/about.html">
+                <span class="nav-item nav-link fa fa-user" aria-hidden="true" style="display:inline;"></span>
+            </a>
+        {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                <span class="nav-item nav-link fa fa-twitter" style="display:inline;" aria-hidden="true" target="_blank"></span>
+            </a>
+        {% endif %}
+        {% if site.instagram_username %}
+            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+                <span class="nav-item nav-link fa fa-instagram" style="display:inline;" aria-hidden="true"></span>
+            </a>
+        {% endif %}
+        {% if site.blogger_username %}
+            <a href="https://{{ site.blogger_username }}.blogspot.ca" target="_blank">
+                <span class="nav-item nav-link fa fa-google-plus-official" style="display:inline;" aria-hidden="true"></span>
+            </a>
+        {% endif %}
+        {% if site.linkedin_username %}
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+                <span class="nav-item nav-link fa fa-linkedin" style="display:inline;" aria-hidden="true"></span>
+            </a>
+        {% endif %}
+        {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" target="_blank">
+                <span class="nav-item nav-link fa fa-github" style="display:inline;" aria-hidden="true"></span>
+            </a>
+        {% endif %}
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container -->
+    <!-- /.navbar-collapse -->
 </nav>

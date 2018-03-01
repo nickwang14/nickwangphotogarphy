@@ -5,7 +5,7 @@ layout: about
 <div class="about">
     <div id="aboutCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
-	    <div class="item intro-message active"
+	    <div class="carousel-item intro-message active"
 	    	style="
 	    	background: url(/assets/about/aboutbg.jpg)
 	    	no-repeat;
@@ -22,45 +22,45 @@ layout: about
 	        <a href="/explore.html">Explore</a>
 	        </h4>
 	    </div>
-	    <!-- End item 1 -->
-	    <div class="item container-fluid intro">
+	    <!-- End carousel-item 1 -->
+	    <div class="carousel-item container-fluid intro">
 		    <div class="row">
 				<div class="col-md-6 col-sm-12 col-xs-12">
-				<div class="well photography" data-mh="row-1">
-			        <h2 class="section-heading">Shoot</h2>
-			        <p class="lead">
-			        Photography, as with any art, requires dedication and practice to stay sharp.
-			        If you scroll through my <a href="instagram.com/{{instagram_username}}" target="_blank">
-			        Instagram</a>, you can see that I try to shoot a wide variety of subjects. However, I find that my strengths lie with animals and architecture, as featured in my <a href="/shoot">gallery</a>.
-			        </p>
-			    </div>
+					<div class="well photography" data-mh="row-1">
+						<h2 class="section-heading">Shoot</h2>
+						<p class="lead">
+						Photography, as with any art, requires dedication and practice to stay sharp.
+						If you scroll through my <a href="instagram.com/{{instagram_username}}" target="_blank">
+						Instagram</a>, you can see that I try to shoot a wide variety of subjects. However, I find that my strengths lie with animals and architecture, as featured in my <a href="/shoot">gallery</a>.
+						</p>
+					</div>
 			    </div>
 			    <div class="col-md-6 col-sm-12 col-xs-12" id="photography">
 			    	<img src="/assets/about/shoot.jpg" class="photography" alt="" data-mh="row-1">
 			    </div>
 			</div>
 			<div class="row">
-				<div class="col-md-push-6 col-md-6 col-sm-12 col-xs-12">
-				<div class="well photography" data-mh="row-2">
-			        <h2 class="section-heading">Fight</h2>
-			        <p class="lead">
-			        I started Muay Thai in 2015. I have since won 2 amateur belts with the Thai Boxing Association (USA).
-			        My experience as a competitor allows me to follow the rhythm of a fight in order to capture pivotal moments of <a href="/fight">action</a>. I've also been a key part of photographing fight events, check out those <a href="/works"> works here</a>.
-			        </p>
-				</div>
-				</div>
 				<div class="col-md-pull-6 col-md-6 col-sm-12 col-xs-12" id="photography">
 					<img src="/assets/about/fight.jpg" class="photography" alt="" data-mh="row-2">
+				</div>
+				<div class="col-md-push-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="well photography" data-mh="row-2">
+						<h2 class="section-heading">Fight</h2>
+						<p class="lead">
+						I started Muay Thai in 2015. I have since won 2 amateur belts with the Thai Boxing Association (USA).
+						My experience as a competitor allows me to follow the rhythm of a fight in order to capture pivotal moments of <a href="/fight">action</a>. I've also been a key part of photographing fight events, check out those <a href="/works"> works here</a>.
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-xs-12">
-				<div class="well photography" data-mh="row-3">
-			        <h2 class="section-heading">Explore</h2>
-			        <p class="lead">
-			        <a href="/explore">Travel and Exploration </a>was what inspired me to start shooting.
-			        I wanted to accurately share what the world has to offer, and realized that I needed to improve my photography in order to do justice to those experiences. </p>
-			    </div>
+					<div class="well photography" data-mh="row-3">
+						<h2 class="section-heading">Explore</h2>
+						<p class="lead">
+						<a href="/explore">Travel and Exploration </a>was what inspired me to start shooting.
+						I wanted to accurately share what the world has to offer, and realized that I needed to improve my photography in order to do justice to those experiences. </p>
+					</div>
 			    </div>
 			    <div class="col-md-6 col-sm-12 col-xs-12" id="photography">
 					<img src="/assets/about/explore.jpg" class="photography" alt="" data-mh="row-3">
@@ -72,7 +72,7 @@ layout: about
 				</div>
 			</div>
 		</div>
-	    <div class="item contact"
+	    <div class="carousel-item contact"
 	    	style="
 	    	background: url(/assets/about/contact.jpg)
 	    	no-repeat;
@@ -99,7 +99,7 @@ layout: about
 	            </li>
 	        </ul>
 	    </div>
-	    <!-- End item 2 -->
+	    <!-- End carousel-item 2 -->
 	    <!-- Carousel Indicators -->
 	  	<ol class="carousel-indicators">
 		    <li data-target="#aboutCarousel" data-slide-to="0" class="active">
@@ -112,13 +112,13 @@ layout: about
 	    </div>
     </div>
     <!-- End Carousel -->
-    <!-- Carousel Controllers -->
-    <a class="left carousel-control" href="#aboutCarousel" role="button" data-slide="prev">
-    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    	<span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#aboutCarousel" role="button" data-slide="next">
-    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    	<span class="sr-only">Next</span>
-    </a>
+	<!-- Controls -->
+	<a class="carousel-control-prev" href="#aboutCarousel" role="button" data-slide="prev" onclick="heightFix()" >
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#aboutCarousel" role="button" data-slide="next" onclick="heightFix()">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
 </div>
