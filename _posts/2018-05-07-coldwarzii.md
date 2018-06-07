@@ -4,7 +4,7 @@ title:  "Cold Warz II"
 date:   2018-05-07
 categories: [fight, muaythai]
 permalink: coldwarzii
-cover: '/assets/works/coldwarzii/coldwarzii-1.jpg'
+cover: '/assets/works/coldwarzii/coldwarzii-01.jpg'
 ---
 <link href="css/customimagegallery.css" rel="stylesheet">
 <h1>{{ page.title }}</h1>
