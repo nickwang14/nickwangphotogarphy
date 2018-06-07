@@ -10,9 +10,9 @@ cover: '/assets/works/coldwarzii/coldwarzii-01.jpg'
 <h1>{{ page.title }}</h1>
 <h2>{{ page.date | date: '%B %d, %Y' }}</h2>
 <p>A local gathering of some of the top talent in Toronto and the area. 
-<a href="https://www.facebook.com/jordan.kravitz.14"> Kru Jordan</a> 
+<a href="https://www.facebook.com/jordan.kravitz.14"><b>Kru Jordan</b></a> 
 is a well known coach and promoter who spares no frills in his events. From well catered tables, to taking good care of his athletes and employees, he goes all out on making sure his event is top quality. 👌 </p>
-<p>Find <a href="https://www.facebook.com/Cold-Warz-Muay-Thai-Fight-Promotion-2002128153366396/">Cold Warz</a> on Facebook and don't miss the next event!</p>
+<p>Find <a href="https://www.facebook.com/Cold-Warz-Muay-Thai-Fight-Promotion-2002128153366396/"><b>Cold Warz</b></a> on Facebook and don't miss the next event!</p>
 <!--<
 section id="modal">
 	{% for image in site.static_files %}
