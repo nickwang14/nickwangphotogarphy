@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: blogposts
 title:  "Zahabi Wedding"
 date:   2017-10-21
 categories: [wedding, events]
