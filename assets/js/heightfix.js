@@ -1,3 +1,0 @@
-function heightFix() {
-    $('.photography').matchHeight();
-}
